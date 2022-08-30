@@ -1,0 +1,299 @@
+@media (max-width: 500px){
+body{
+    background-color: aliceblue;
+    cursor: default;
+}
+header{
+    padding: 50px;
+
+}
+.card img{
+    margin-left: 10px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    zoom: 70%;
+}
+
+.icon img{
+    float: left;
+    zoom: 15%;
+    rotate: 130deg;
+}
+
+.about1{
+    background-color: rgba(0, 255, 255, 0.371);
+    border: 2px solid rgba(20, 104, 20, 0.465);
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 100%;
+}
+.about2{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+    border-bottom-right-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about1:hover{
+    background-color: rgba(0, 255, 255, 0.371);
+    border: 2px solid rgba(20, 104, 20, 0.465);
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 70%;
+    border-top-right-radius: 100%;
+    transition: all 2s;
+
+}
+.about2:hover{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 2s;
+
+}
+
+.basic-info{
+    width: 200px;
+    margin: 10px;
+    margin-top: 50px;
+    zoom: 80%;
+}
+
+.project-card{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(183, 234, 234, 0.396);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.image img{
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 5px;
+}
+.info{
+    width: 200px;
+    font-size: small;
+}
+
+}
+@media (max-width:300px){
+    header{
+        padding: 5px;
+        padding-bottom: 50px;
+    }
+    .card img{
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        zoom: 50%;
+    }
+    
+    
+    .about1{
+        background-color: rgba(0, 255, 255, 0.371);
+        border: 2px solid rgba(20, 104, 20, 0.465);
+        width: 100%;
+        height: 300px;
+        border-top-right-radius: 100%;
+    }
+    .about2{
+        background-color: aqua;
+        width: 100%;
+        height: 300px;
+        border-bottom-right-radius: 100%;
+        display: block;
+    }
+    
+    .about1:hover{
+        background-color: rgba(0, 255, 255, 0.371);
+        border: 2px solid rgba(20, 104, 20, 0.465);
+        width: 100%;
+        height: 300px;
+        border-bottom-left-radius: 70%;
+        border-top-right-radius: 70%;
+        transition: all 2s;
+    
+    }
+    .about2:hover{
+        background-color: aqua;
+        width: 100%;
+        height: 300px;
+        border-bottom-right-radius: 100%;
+        border-top-left-radius: 70%;
+        display: block;
+        transition: all 2s;
+    
+    }
+    .basic-info{
+        width: 200px;
+        margin: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+        /* zoom: 80%; */
+        font-size: 18.9px;
+    }
+    .project-card{
+        display: block;
+        justify-content: space-between;
+        background-color: rgba(183, 234, 234, 0.396);
+        padding: 10px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    
+    .image img{
+        width: 200px;
+        margin-top: 15px;
+        margin-left: 1%;
+        
+    }
+    .info{
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+/* common classes */
+.name{
+    font-weight: bolder;
+    color: rgb(43, 201, 149);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button-holder{
+    display: flex;
+    margin-top: 10px;
+}
+.button{
+    padding: 5px;
+    background-color: none;
+    border: 2px solid rgb(133, 222, 133);
+    width: fit-content;
+    cursor: pointer;
+}
+.button:hover{
+    padding: 5px;
+    background-color: rgb(133, 222, 133);
+    transition: all 2s ;
+    border: 2px solid rgb(7, 7, 7);
+    width: fit-content;
+    cursor: pointer;
+}
+.undline{
+    text-decoration: underline;
+}
+.cap{
+    text-transform: capitalize;
+}
+.center{
+    text-align: center;
+}
+.marl10{
+    margin-left: 10px;
+}
+.bdrnon{
+    border: none;
+}
+.bdrnon:hover{
+    border: none;
+}
+/* ------------- */
+
+@media (min-width: 500px){
+    body{
+        background-color: aliceblue;
+        cursor: default;
+    }
+    header{
+        padding: 50px;
+    
+    }
+    .card img{
+        margin-left: 60px;
+        width: 200px;
+        height: 300px;
+        text-align: center;
+    }
+    
+
+    .about1{
+        background-color: rgba(0, 255, 255, 0.371);
+        border: 2px solid rgba(20, 104, 20, 0.465);
+        width: 100%;
+        height: 300px;
+        border-top-right-radius: 100%;
+    }
+    .about2{
+        background-color: aqua;
+        width: 100%;
+        height: 300px;
+        border-bottom-right-radius: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    
+    .about1:hover{
+        background-color: rgba(0, 255, 255, 0.371);
+        border: 2px solid rgba(20, 104, 20, 0.465);
+        width: 100%;
+        height: 300px;
+        border-bottom-left-radius: 70%;
+        border-top-right-radius: 100%;
+        transition: all 2s;
+    
+    }
+    .about2:hover{
+        background-color: aqua;
+        width: 100%;
+        height: 300px;
+        border-bottom-right-radius: 100%;
+        border-top-left-radius: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        transition: all 2s;
+    
+    }
+    
+    .basic-info{
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .project-section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .project-card{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    background-color: rgba(183, 234, 234, 0.396);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    }
+
+    .image img{
+        width: 200px;
+        margin-top: 30px;
+    }
+    .info{
+        width: 170px;
+        font-size: small;
+    }
+    
+}
+
